@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600 &display=swap"
+          rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+            integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"
+          href="form.css" />
+    <link rel="stylesheet"
+          href="style.css" />
+    <title>WUZZUF</title>
+</head>
+
+<body>
+    <header class="header-section">
+        <nav class="top-navigation">
+            <ul class="top-navigation_list">
+                <li class="top_logo">
+                    <img src="assets/img/Wuzzuf-Logo-1.png"
+                         alt="wuzzuf-logo" />
+                </li>
+
+                <ul class="top-navigation_list-link">
+                    <li class="top-navigation_list-item top-navigation_list-item_active">
+                        <a href="#">Explore</a>
+                    </li>
+                    <li class="top-navigation_list-item">
+                        <a href="#">SAved</a>
+                    </li>
+                    <li class="top-navigation_list-item">
+                        <a href="#">Applications</a>
+                    </li>
+                </ul>
+            </ul>
+
+            <ul class="top-navigation_list">
+                <div class="search_bar_container">
+                    <div class="search_bar">
+                        <input class="search_bar-input"
+                               type="text"
+                               name=""
+                               id="" />
+                    </div>
+                    <button class="search_bar-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+                <div class="menu_profile">
+                    <img class="menu_profile-img"
+                         src="assets/img/profileImage1.png"
+                         alt="profileImage1"
+                         width="20px" />
+                    <div class="menu_profile_overflow">
+                        <div class="menu_profile_overflow-item"></div>
+                        <div class="menu_profile_overflow-item"></div>
+                        <div class="menu_profile_overflow-item"></div>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="flex">
+            <div class="col-2 margin-r-l">
+                <nav class="side_nav-settings">
+                    <ul class="side_nave-list">
+                        <li class="side_nav-settings_item side_nav-settings_item-active">
+                            <a href="#"
+                               class="side_nav-settings_link">General
+                                Info</a>
+                        </li>
+                        <li class="side_nav-settings_item">
+                            <a href="#"
+                               class="side_nav-settings_link">
+                                Career
+                                intersets
+                            </a>
+                        </li>
+                        <li class="side_nav-settings_item">
+                            <a href="#"
+                               class="side_nav-settings_link">
+                                Experience
+                            </a>
+                        </li>
+                        <li class="side_nav-settings_item">
+                            <a href="#"
+                               class="side_nav-settings_link">
+                                Education
+                            </a>
+                        </li>
+                        <li class="side_nav-settings_item">
+                            <a href="#"
+                               class="side_nav-settings_link">
+                                Skills
+                            </a>
+                        </li>
+                        <li class="side_nav-settings_item">
+                            <a href="#"
+                               class="side_nav-settings_link">
+                                Online
+                                Presense
+                            </a>
+                        </li>
+                        <li class="side_nav-settings_item">
+                            <a href="#"
+                               class="side_nav-settings_link">
+                                Upload
+                                CV
+                            </a>
+                        </li>
+                        <li class="side_nav-settings_item">
+                            <a href="#"
+                               class="side_nav-settings_link">
+                                Achievements
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-7">
+                <div class="info_container_three">
+                    <div class="info_container_header can_edit">
+                        <h3 class="info_container_heading">What is your current career level?</h3>
+                    </div>
+                    <div class="grid-3">
+                        <input type="radio"
+                               class="level_radio"
+                               name="level"
+                               id="student">
+                        <label for="student">student</label>
+
+                        <input type="radio"
+                               class="level_radio"
+                               name="level"
+                               id="entry_level">
+                        <label for="entry_level">entry level</label>
+
+                        <input type="radio"
+                               class="level_radio"
+                               name="level"
+                               id="experienced">
+                        <label for="experienced">Experienced</label>
+
+                        <input type="radio"
+                               class="level_radio"
+                               name="level"
+                               id="manger">
+                        <label for="manger">Manger</label>
+
+                        <input type="radio"
+                               class="level_radio"
+                               name="level"
+                               id="senior">
+                        <label for="senior">Senior Mangment</label>
+
+                    </div>
+
+                </div>
+
+                <div class="info_container_three">
+                    <div class="info_container_header can_edit">
+                        <h3 class="info_container_heading">What type(s) of job are you open to?</h3>
+                    </div>
+                    <div class="flex">
+                        <div class="jobsSelect">
+                            <span>Freelance</span>
+                            <i class="jobsSelect-added fas fa-check"></i>
+                            <i class="jobsSelect-remove fas fa-times"></i>
+                            <i class="jobsSelect-add fas fa-plus"></i>
+                        </div>
+                        <div class="jobsSelect jobsSelect_active">
+                            <span>Freelance</span>
+                            <i class="jobsSelect-added fas fa-check"></i>
+                            <i class="jobsSelect-remove fas fa-times"></i>
+                            <i class="jobsSelect-add fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info_container_three">
+                    <div class="info_container_header can_edit">
+                        <h3 class="info_container_heading">What are the job titles that describe what you are looking for?<span class="smallheading_span"> — Add at least 2</span> </h3>
+                    </div>
+                    <div class="bordered">
+                        <div class="flex">
+                            <div class="jobsSelect-small jobsSelect-small_active">
+                                <span>Freelance</span>
+                                <i class="jobsSelect-remove fas fa-times"></i>
+                            </div>
+                            <div class="jobsSelect-small jobsSelect-small_active ">
+                                <span>Freelance</span>
+                                <i class="jobsSelect-remove fas fa-times"></i>
+                            </div>
+                            <div class="jobsSelect-clear_all-container">
+                                <i class="jobsSelect-clear_all fas fa-times"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info_container_three">
+                    <div class="info_container_header">
+                        <h3 class="info_container_heading">What job roles are you interested in?<span class="smallheading_span"> — Add 1 or more</span> </h3>
+                    </div>
+                    <div class="bordered">
+                        <div class="flex">
+                            <div class="jobsSelect-small jobsSelect-small_active">
+                                <span>Freelance</span>
+                                <i class="jobsSelect-remove fas fa-times"></i>
+                            </div>
+                            <div class="jobsSelect-small jobsSelect-small_active ">
+                                <span>Freelance</span>
+                                <i class="jobsSelect-remove fas fa-times"></i>
+                            </div>
+                            <div class="jobsSelect-clear_all-container">
+                                <i class="jobsSelect-clear_all fas fa-times"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-section_container suggestions">
+                        <span class="smallheading_span">Suggestions:</span>
+                        <div class="flex">
+                            <div class="jobsSelect-small ">
+                                <span>Freelance</span>
+                                <i class="jobsSelect-remove fas fa-times"></i>
+                            </div>
+                            <div class="jobsSelect-small ">
+                                <span>Freelance</span>
+                                <i class="jobsSelect-remove fas fa-times"></i>
+                            </div>
+                            <div class="jobsSelect-clear_all-container">
+                                <i class="jobsSelect-clear_all fas fa-times"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info_container_three">
+                    <div class="info_container_header can_edit">
+                        <h3 class="info_container_heading">What is the minimum salary you would accept?<span class="smallheading_span"> — Add a net salary (i.e., final amount you want after taxes and insurance)</span> </h3>
+                    </div>
+                    <div class="input-section_container input_container">
+                        <div class="flex">
+                            <input type="text"
+                                   class="input"
+                                   style=" width: 320px;"
+                                   name="frist_name"
+                                   id="" />
+                            <span> EGP / Month <a href="#">Change</a> </span>
+                        </div>
+                        <span>Estimated range: 6,000 to 9,000 EGP/Month</span>
+                    </div>
+                    <div class="input-section_container input_container">
+                        <div class="flex">
+                            <input type="checkbox"
+                                   class="input"
+                                   name="frist_name"
+                                   id="" />
+                            <label for="frist_name"
+                                   class="input_name">
+                                Hide my minimum salary from companies. <br>
+                                <span class="smallheading_span">We'll only use your minimum salary to recommend jobs for you.</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info_container_three">
+                    <div class="info_container_header can_edit">
+                        <h3 class="info_container_heading">Where would you like to work?<span class="smallheading_span"> — You can add up to 5 countries or cities</span> </h3>
+                    </div>
+                    <div class="input-section_container input_container">
+                        <select style=" width: 320px;"
+                                name="nationality"
+                                class="input_select"
+                                name="DOBDay">
+                            <option value="afghan">Afghan</option>
+                            <option value="albanian">Albanian</option>
+                            <option value="algerian">Algerian</option>
+                            <option value="american">American</option>
+                            <option value="andorran">Andorran</option>
+                            <option value="angolan">Angolan</option>
+                            <option value="antiguans">Antiguans</option>
+                            <option value="argentinean">Argentinean</option>
+                            <option value="armenian">Armenian</option>
+                            <option value="australian">Australian</option>
+                            <option value="austrian">Austrian</option>
+                            <option value="azerbaijani">Azerbaijani</option>
+                            <option value="bahamian">Bahamian</option>
+                            <option value="bahraini">Bahraini</option>
+                            <option value="bangladeshi">Bangladeshi</option>
+                            <option value="barbadian">Barbadian</option>
+                            <option value="barbudans">Barbudans</option>
+                            <option value="batswana">Batswana</option>
+                            <option value="belarusian">Belarusian</option>
+                            <option value="belgian">Belgian</option>
+                            <option value="belizean">Belizean</option>
+                            <option value="beninese">Beninese</option>
+                            <option value="bhutanese">Bhutanese</option>
+                            <option value="bolivian">Bolivian</option>
+                            <option value="bosnian">Bosnian</option>
+                            <option value="brazilian">Brazilian</option>
+                            <option value="british">British</option>
+                            <option value="bruneian">Bruneian</option>
+                            <option value="bulgarian">Bulgarian</option>
+                            <option value="burkinabe">Burkinabe</option>
+                            <option value="burmese">Burmese</option>
+                            <option value="burundian">Burundian</option>
+                            <option value="cambodian">Cambodian</option>
+                            <option value="cameroonian">Cameroonian</option>
+                            <option value="canadian">Canadian</option>
+                            <option value="cape verdean">Cape
+                                Verdean</option>
+                            <option value="central african">Central
+                                African</option>
+                            <option value="chadian">Chadian</option>
+                            <option value="chilean">Chilean</option>
+                            <option value="chinese">Chinese</option>
+                            <option value="colombian">Colombian</option>
+                            <option value="comoran">Comoran</option>
+                            <option value="congolese">Congolese</option>
+                            <option value="costa rican">Costa
+                                Rican</option>
+                            <option value="croatian">Croatian</option>
+                            <option value="cuban">Cuban</option>
+                            <option value="cypriot">Cypriot</option>
+                            <option value="czech">Czech</option>
+                            <option value="danish">Danish</option>
+                            <option value="djibouti">Djibouti</option>
+                            <option value="dominican">Dominican</option>
+                            <option value="dutch">Dutch</option>
+                            <option value="east timorese">East
+                                Timorese</option>
+                            <option value="ecuadorean">Ecuadorean</option>
+                            <option value="egyptian">Egyptian</option>
+                            <option value="emirian">Emirian</option>
+                            <option value="equatorial guinean">Equatorial
+                                Guinean</option>
+                            <option value="eritrean">Eritrean</option>
+                            <option value="estonian">Estonian</option>
+                            <option value="ethiopian">Ethiopian</option>
+                            <option value="fijian">Fijian</option>
+                            <option value="filipino">Filipino</option>
+                            <option value="finnish">Finnish</option>
+                            <option value="french">French</option>
+                            <option value="gabonese">Gabonese</option>
+                            <option value="gambian">Gambian</option>
+                            <option value="georgian">Georgian</option>
+                            <option value="german">German</option>
+                            <option value="ghanaian">Ghanaian</option>
+                            <option value="greek">Greek</option>
+                            <option value="grenadian">Grenadian</option>
+                            <option value="guatemalan">Guatemalan</option>
+                            <option value="guinea-bissauan">Guinea-Bissauan</option>
+                            <option value="guinean">Guinean</option>
+                            <option value="guyanese">Guyanese</option>
+                            <option value="haitian">Haitian</option>
+                            <option value="herzegovinian">Herzegovinian</option>
+                            <option value="honduran">Honduran</option>
+                            <option value="hungarian">Hungarian</option>
+                            <option value="icelander">Icelander</option>
+                            <option value="indian">Indian</option>
+                            <option value="indonesian">Indonesian</option>
+                            <option value="iranian">Iranian</option>
+                            <option value="iraqi">Iraqi</option>
+                            <option value="irish">Irish</option>
+                            <option value="israeli">Israeli</option>
+                            <option value="italian">Italian</option>
+                            <option value="ivorian">Ivorian</option>
+                            <option value="jamaican">Jamaican</option>
+                            <option value="japanese">Japanese</option>
+                            <option value="jordanian">Jordanian</option>
+                            <option value="kazakhstani">Kazakhstani</option>
+                            <option value="kenyan">Kenyan</option>
+                            <option value="kittian and nevisian">Kittian
+                                and
+                                Nevisian</option>
+                            <option value="kuwaiti">Kuwaiti</option>
+                            <option value="kyrgyz">Kyrgyz</option>
+                            <option value="laotian">Laotian</option>
+                            <option value="latvian">Latvian</option>
+                            <option value="lebanese">Lebanese</option>
+                            <option value="liberian">Liberian</option>
+                            <option value="libyan">Libyan</option>
+                            <option value="liechtensteiner">Liechtensteiner</option>
+                            <option value="lithuanian">Lithuanian</option>
+                            <option value="luxembourger">Luxembourger</option>
+                            <option value="macedonian">Macedonian</option>
+                            <option value="malagasy">Malagasy</option>
+                            <option value="malawian">Malawian</option>
+                            <option value="malaysian">Malaysian</option>
+                            <option value="maldivan">Maldivan</option>
+                            <option value="malian">Malian</option>
+                            <option value="maltese">Maltese</option>
+                            <option value="marshallese">Marshallese</option>
+                            <option value="mauritanian">Mauritanian</option>
+                            <option value="mauritian">Mauritian</option>
+                            <option value="mexican">Mexican</option>
+                            <option value="micronesian">Micronesian</option>
+                            <option value="moldovan">Moldovan</option>
+                            <option value="monacan">Monacan</option>
+                            <option value="mongolian">Mongolian</option>
+                            <option value="moroccan">Moroccan</option>
+                            <option value="mosotho">Mosotho</option>
+                            <option value="motswana">Motswana</option>
+                            <option value="mozambican">Mozambican</option>
+                            <option value="namibian">Namibian</option>
+                            <option value="nauruan">Nauruan</option>
+                            <option value="nepalese">Nepalese</option>
+                            <option value="new zealander">New
+                                Zealander</option>
+                            <option value="ni-vanuatu">Ni-Vanuatu</option>
+                            <option value="nicaraguan">Nicaraguan</option>
+                            <option value="nigerien">Nigerien</option>
+                            <option value="north korean">North
+                                Korean</option>
+                            <option value="northern irish">Northern
+                                Irish</option>
+                            <option value="norwegian">Norwegian</option>
+                            <option value="omani">Omani</option>
+                            <option value="pakistani">Pakistani</option>
+                            <option value="palauan">Palauan</option>
+                            <option value="panamanian">Panamanian</option>
+                            <option value="papua new guinean">Papua
+                                New
+                                Guinean</option>
+                            <option value="paraguayan">Paraguayan</option>
+                            <option value="peruvian">Peruvian</option>
+                            <option value="polish">Polish</option>
+                            <option value="portuguese">Portuguese</option>
+                            <option value="qatari">Qatari</option>
+                            <option value="romanian">Romanian</option>
+                            <option value="russian">Russian</option>
+                            <option value="rwandan">Rwandan</option>
+                            <option value="saint lucian">Saint
+                                Lucian</option>
+                            <option value="salvadoran">Salvadoran</option>
+                            <option value="samoan">Samoan</option>
+                            <option value="san marinese">San
+                                Marinese</option>
+                            <option value="sao tomean">Sao
+                                Tomean</option>
+                            <option value="saudi">Saudi</option>
+                            <option value="scottish">Scottish</option>
+                            <option value="senegalese">Senegalese</option>
+                            <option value="serbian">Serbian</option>
+                            <option value="seychellois">Seychellois</option>
+                            <option value="sierra leonean">Sierra
+                                Leonean</option>
+                            <option value="singaporean">Singaporean</option>
+                            <option value="slovakian">Slovakian</option>
+                            <option value="slovenian">Slovenian</option>
+                            <option value="solomon islander">Solomon
+                                Islander</option>
+                            <option value="somali">Somali</option>
+                            <option value="south african">South
+                                African</option>
+                            <option value="south korean">South
+                                Korean</option>
+                            <option value="spanish">Spanish</option>
+                            <option value="sri lankan">Sri
+                                Lankan</option>
+                            <option value="sudanese">Sudanese</option>
+                            <option value="surinamer">Surinamer</option>
+                            <option value="swazi">Swazi</option>
+                            <option value="swedish">Swedish</option>
+                            <option value="swiss">Swiss</option>
+                            <option value="syrian">Syrian</option>
+                            <option value="taiwanese">Taiwanese</option>
+                            <option value="tajik">Tajik</option>
+                            <option value="tanzanian">Tanzanian</option>
+                            <option value="thai">Thai</option>
+                            <option value="togolese">Togolese</option>
+                            <option value="tongan">Tongan</option>
+                            <option value="trinidadian or tobagonian">Trinidadian
+                                or
+                                Tobagonian</option>
+                            <option value="tunisian">Tunisian</option>
+                            <option value="turkish">Turkish</option>
+                            <option value="tuvaluan">Tuvaluan</option>
+                            <option value="ugandan">Ugandan</option>
+                            <option value="ukrainian">Ukrainian</option>
+                            <option value="uruguayan">Uruguayan</option>
+                            <option value="uzbekistani">Uzbekistani</option>
+                            <option value="venezuelan">Venezuelan</option>
+                            <option value="vietnamese">Vietnamese</option>
+                            <option value="welsh">Welsh</option>
+                            <option value="yemenite">Yemenite</option>
+                            <option value="zambian">Zambian</option>
+                            <option value="zimbabwean">Zimbabwean</option>
+                        </select>
+                    </div>
+                    <div class="flex">
+                        <div class="jobsSelect-small jobsSelect-small_active ">
+                            <span>Freelance</span>
+                            <i class="jobsSelect-remove fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info_container_three">
+                    <div class="info_container_header can_edit">
+                        <h3 class="info_container_heading">What is your current job search status?</h3>
+                    </div>
+                    <div class="input-section_container input_container">
+                        <select style=" width: 320px;"
+                                name="nationality"
+                                class="input_select"
+                                name="DOBDay">
+                            <option value="afghan">Afghan</option>
+                            <option value="albanian">Albanian</option>
+                            <option value="algerian">Algerian</option>
+                            <option value="american">American</option>
+                            <option value="andorran">Andorran</option>
+                            <option value="angolan">Angolan</option>
+                        </select>
+                    </div>
+                    <div class="input-section_container input_container">
+                        <div class="flex">
+                            <input id="s2"
+                                   type="checkbox"
+                                   class="switch"
+                                   checked>
+                            <label class="input_name"
+                                   for="s2">Let companies find me on WUZZUF. (Recommended) <br>
+                                <span class="smallheading_span">
+                                    By activating this option, you will increase your chances of getting headhunted by companies searching our database.
+                                </span>
+                            </label>
+                        </div>
+                        <div class="input-section_container input_container">
+                            <div class="flex">
+                                <input id="s2"
+                                       type="checkbox"
+                                       class="switch"
+                                       checked>
+                                <label class="input_name"
+                                       for="s2">Make my profile public. (Recommended)<br>
+                                    <span class="smallheading_span">
+                                        By activating this option, you can share your profile to those not on WUZZUF and get more exposure.
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
+
+</html>
