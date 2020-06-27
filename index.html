@@ -48,19 +48,52 @@
 						</button>
 					</div>
 
-					<div class="menu_profile">
+
+<li class="dropdown dropdown-user dropdown-dark menu_user">
+                        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                            <div class="profile-dropdown-icon_container">
+                                <div class="menu_profile">
 						<img
 							class="menu_profile-img"
 							src="assets/img/profileImage1.png"
 							alt="profileImage1"
 							width="20px"
 						/>
+
+
 						<div class="menu_profile_overflow">
 							<div class="menu_profile_overflow-item"></div>
 							<div class="menu_profile_overflow-item"></div>
 							<div class="menu_profile_overflow-item"></div>
 						</div>
 					</div>
+                            </div>
+                            
+                            <!--<i class="fa fa-angle-down"></i>-->
+                            <!-- DOC: Do not remove below empty space(&nbsp;) as its purposely used -->
+                             </a>
+                        <ul class="dropdown-menu dropdown-menu-default">
+                            <span class="username username-show-on-mobile"><?php echo $email[0]["email"] ?>  </span>
+                            <li class="divider"> </li>
+                            <li class="dropdown-menu_item"> <a class="dropdown-menu_link" href="https://maysur.com/auth/app/myaccount.php"> <i class="icon-user"></i> My account </a> </li>
+                            <li class="dropdown-menu_item"> <a class="dropdown-menu_link" href="https://maysur.com/auth/app/my-files.php"> <i class="icon-user"></i> My files </a> </li>
+                            <li class="dropdown-menu_item"> <a class="dropdown-menu_link" href="https://maysur.com/auth/app/payments.php"> <i class="icon-user"></i> Payments </a> </li>
+                            <li class="dropdown-menu_item"> <a class="dropdown-menu_link" href="https://maysur.com/auth/app/mystore.php"> <i class="icon-user"></i> My stores </a> </li>
+                            <li class="dropdown-menu_item"> <a class="dropdown-menu_link" href="https://maysur.com/auth/app/settings.php"> <i class="icon-user"></i> Settings </a> </li>
+                            <li class="dropdown-menu_item"> <a class="dropdown-menu_link" href="https://maysur.com/auth/app/connection.php"> <i class="icon-user"></i> Connections </a> </li>
+
+                            <li class="divider"> </li>
+
+                            <li>
+                                <a href="../logout.php">
+                                    <i class="icon-key"></i> Sign out </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+					
+					
 				</ul>
 			</nav>
 		</header>
@@ -352,5 +385,21 @@
 				</div>
 			</section>
 		</div>
+
+		  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 	</body>
+
+
 </html>

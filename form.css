@@ -134,3 +134,17 @@
 		--s: 0.5;
 	}
 }
+
+.anotherpart{
+    background: white !important;
+    padding: 5% !important;
+    border-color: rgb(217, 221, 228);
+    border-width: 1px;
+    border-style: solid;
+
+}
+p.body-anotherpart {
+    color: #808ea5;
+    font-size: 12px;
+}
+
