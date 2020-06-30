@@ -5,29 +5,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0" />
-
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600 &display=swap"
           rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
             integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
             crossorigin="anonymous"></script>
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet"
           href="form.css" />
     <link rel="stylesheet"
           href="style.css" />
-    <title>WUZZUF</title>
+    <title>Career intersets</title>
 </head>
 
 <body>
-    <header class="header-section">
+    <header class="header_sm d-md-vis">
+        <nav class="header_sm_nav">
+            <div class="header_sm_back back_btn_container">
+                <a class="back_btn"
+                   href="#">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+            <h3 class="header_sm_heading btnSmOpen ">Setting <i class="fas fa-angle-down"></i></h3>
+            <ul class="header_sm_dropDown">
+                <li class="header_sm_item"> <a href="#">1</a> </li>
+                <li class="header_sm_item"> <a href="#">2</a> </li>
+                <li class="header_sm_item"> <a href="#">3</a> </li>
+                <li class="header_sm_item"> <a href="#">4</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="d-md-none header-section">
         <nav class="top-navigation">
             <ul class="top-navigation_list">
-                <li class="top_logo">
+                <a href="index.html"
+                   class="top_logo">
                     <img src="assets/img/Wuzzuf-Logo-1.png"
                          alt="wuzzuf-logo" />
-                </li>
+                </a>
 
                 <ul class="top-navigation_list-link">
                     <li class="top-navigation_list-item top-navigation_list-item_active">
@@ -69,9 +89,10 @@
             </ul>
         </nav>
     </header>
+
     <div class="container">
-        <div class="flex">
-            <div class="col-2 margin-r-l">
+        <div class="row">
+            <div class="col-lg-3 d-md-none">
                 <nav class="side_nav-settings">
                     <ul class="side_nave-list">
                         <li class="side_nav-settings_item ">
@@ -128,15 +149,20 @@
                 </nav>
 
                 <br>
-                <div class = "anotherpart">
-                	<h3 class="anotherpart_h">
-                		Improve Your Profile
-                	</h3>
-                	<p class="body-anotherpart">0 employers viewed your profile in the last 30 days (39 all time)</p>
-                	  <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                      <span class="sr-only">70% Complete</span>
-                     </div>
+                <div class="anotherpart">
+                    <h3 class="anotherpart_h">
+                        Improve Your Profile
+                    </h3>
+                    <p class="body-anotherpart">0 employers viewed your profile in the last 30 days (39 all time)</p>
+                    <div class="progress">
+                        <div class="progress-bar"
+                             role="progressbar"
+                             aria-valuenow="70"
+                             aria-valuemin="0"
+                             aria-valuemax="100"
+                             style="width:70%">
+                            <span class="sr-only">70% Complete</span>
+                        </div>
                     </div>
                     <p class="body-anotherpart">Your profile strength is 95%</p>
 
@@ -146,7 +172,7 @@
             </div>
 
 
-            <div class="col-7">
+            <div class="col-lg-9 nopadding">
                 <div class="info_container_three">
                     <div class="info_container_header can_edit">
                         <h3 class="info_container_heading">What is your current career level?</h3>
@@ -257,9 +283,6 @@
                                 <span>Freelance</span>
                                 <i class="jobsSelect-remove fas fa-times"></i>
                             </div>
-                            <div class="jobsSelect-clear_all-container">
-                                <i class="jobsSelect-clear_all fas fa-times"></i>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -275,12 +298,13 @@
                                    style=" width: 320px;"
                                    name="frist_name"
                                    id="" />
-                            <span> EGP / Month <a href="#">Change</a> </span>
+                            <span class="smallheading_span"> EGP / Month <a class="link_inline"
+                                   href="#">Change</a> </span>
                         </div>
-                        <span>Estimated range: 6,000 to 9,000 EGP/Month</span>
+                        <span class="smallheading_span">Estimated range: 6,000 to 9,000 EGP/Month</span>
                     </div>
                     <div class="input-section_container input_container">
-                        <div class="flex">
+                        <div class="flex switch_container-one">
                             <input type="checkbox"
                                    class="input"
                                    name="frist_name"
@@ -299,9 +323,8 @@
                         <h3 class="info_container_heading">Where would you like to work?<span class="smallheading_span"> — You can add up to 5 countries or cities</span> </h3>
                     </div>
                     <div class="input-section_container input_container">
-                        <select style=" width: 320px;"
-                                name="nationality"
-                                class="input_select"
+                        <select name="nationality"
+                                class="width-lg-300 width-sm-100p input_select"
                                 name="DOBDay">
                             <option value="afghan">Afghan</option>
                             <option value="albanian">Albanian</option>
@@ -532,9 +555,8 @@
                         <h3 class="info_container_heading">What is your current job search status?</h3>
                     </div>
                     <div class="input-section_container input_container">
-                        <select style=" width: 320px;"
+                        <select class="width-lg-300 width-sm-100p input_select"
                                 name="nationality"
-                                class="input_select"
                                 name="DOBDay">
                             <option value="afghan">Afghan</option>
                             <option value="albanian">Albanian</option>
@@ -545,7 +567,7 @@
                         </select>
                     </div>
                     <div class="input-section_container input_container">
-                        <div class="flex">
+                        <div class="flex switch_container-one">
                             <input id="s2"
                                    type="checkbox"
                                    class="switch"
@@ -558,7 +580,7 @@
                             </label>
                         </div>
                         <div class="input-section_container input_container">
-                            <div class="flex">
+                            <div class="flex switch_container-one">
                                 <input id="s2"
                                        type="checkbox"
                                        class="switch"
@@ -574,6 +596,12 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <script>
+        profileMenuSwitch();
+        openSmMenu();
+    </script>
 </body>
 
 </html>

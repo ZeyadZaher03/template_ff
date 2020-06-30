@@ -5,265 +5,352 @@
     <meta charset="UTF-8" />
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0" />
-
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600 &display=swap"
           rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
             integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
             crossorigin="anonymous"></script>
-             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet"
           href="form.css" />
     <link rel="stylesheet"
           href="style.css" />
-    <title>WUZZUF</title>
+    <title>Skills</title>
 </head>
 
-<header class="header-section">
-    <nav class="top-navigation">
-        <ul class="top-navigation_list">
-            <li class="top_logo">
-                <img src="assets/img/Wuzzuf-Logo-1.png"
-                     alt="wuzzuf-logo" />
-            </li>
-
-            <ul class="top-navigation_list-link">
-                <li class="top-navigation_list-item top-navigation_list-item_active">
-                    <a href="#">Explore</a>
-                </li>
-                <li class="top-navigation_list-item">
-                    <a href="#">SAved</a>
-                </li>
-                <li class="top-navigation_list-item">
-                    <a href="#">Applications</a>
-                </li>
+<body>
+    <header class="header_sm d-md-vis">
+        <nav class="header_sm_nav">
+            <div class="header_sm_back back_btn_container">
+                <a class="back_btn"
+                   href="#">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+            <h3 class="header_sm_heading btnSmOpen ">Setting <i class="fas fa-angle-down"></i></h3>
+            <ul class="header_sm_dropDown">
+                <li class="header_sm_item"> <a href="#">1</a> </li>
+                <li class="header_sm_item"> <a href="#">2</a> </li>
+                <li class="header_sm_item"> <a href="#">3</a> </li>
+                <li class="header_sm_item"> <a href="#">4</a> </li>
             </ul>
-        </ul>
+        </nav>
+    </header>
 
-        <ul class="top-navigation_list">
-            <div class="search_bar_container">
-                <div class="search_bar">
-                    <input class="search_bar-input"
-                           type="text"
-                           name=""
-                           id="" />
-                </div>
-                <button class="search_bar-button">
-                    <i class="fas fa-search"></i>
-                </button>
-            </div>
+    <header class="d-md-none header-section">
+        <nav class="top-navigation">
+            <ul class="top-navigation_list">
+                <li class="top_logo">
+                    <img src="assets/img/Wuzzuf-Logo-1.png"
+                         alt="wuzzuf-logo" />
+                </li>
+                <li class="small_screen_arrow">
+                    <i class="fas fa-arrow-left"></i>
+                </li>
 
-            <div class="menu_profile">
-                <img class="menu_profile-img"
-                     src="assets/img/profileImage1.png"
-                     alt="profileImage1"
-                     width="20px" />
-                <div class="menu_profile_overflow">
-                    <div class="menu_profile_overflow-item"></div>
-                    <div class="menu_profile_overflow-item"></div>
-                    <div class="menu_profile_overflow-item"></div>
-                </div>
-            </div>
-        </ul>
-    </nav>
-</header>
-<div class="container">
-    <div class="flex">
-        <div class="col-2 margin-r-l">
-            <nav class="side_nav-settings">
-                <ul class="side_nave-list">
-                    <li class="side_nav-settings_item ">
-                        <a href="settings.html"
-                           class="side_nav-settings_link">General
-                            Info</a>
+                <ul class="top-navigation_list-link">
+                    <li class="top-navigation_list-item top-navigation_list-item_active">
+                        <a href="#">Explore</a>
                     </li>
-                    <li class="side_nav-settings_item">
-                        <a href="career-interests.html"
-                           class="side_nav-settings_link">
-                            Career
-                            intersets
-                        </a>
+                    <li class="top-navigation_list-item">
+                        <a href="#">SAved</a>
                     </li>
-                    <li class="side_nav-settings_item">
-                        <a href="experince.html"
-                           class="side_nav-settings_link">
-                            Experience
-                        </a>
-                    </li>
-                    <li class="side_nav-settings_item">
-                        <a href="education.html"
-                           class="side_nav-settings_link">
-                            Education
-                        </a>
-                    </li>
-                    <li class="side_nav-settings_item side_nav-settings_item-active">
-                        <a href="skills.html"
-                           class="side_nav-settings_link">
-                            Skills
-                        </a>
-                    </li>
-                    <li class="side_nav-settings_item">
-                        <a href="online-presense.html"
-                           class="side_nav-settings_link">
-                            Online
-                            Presense
-                        </a>
-                    </li>
-                    <li class="side_nav-settings_item">
-                        <a href="cv.html"
-                           class="side_nav-settings_link">
-                            Upload
-                            CV
-                        </a>
-                    </li>
-                    <li class="side_nav-settings_item">
-                        <a href="achivement.html"
-                           class="side_nav-settings_link">
-                            Achievements
-                        </a>
+                    <li class="top-navigation_list-item">
+                        <a href="#">Applications</a>
                     </li>
                 </ul>
-            </nav>
-<br>
-              <div class = "anotherpart">
-                	<h3 class="anotherpart_h">
-                		Improve Your Profile
-                	</h3>
-                	<p class="body-anotherpart">0 employers viewed your profile in the last 30 days (39 all time)</p>
-                	  <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                      <span class="sr-only">70% Complete</span>
-                     </div>
+            </ul>
+
+            <ul class="top-navigation_list">
+                <div class="search_bar_container">
+                    <div class="search_bar">
+                        <input class="search_bar-input"
+                               type="text"
+                               name=""
+                               id="" />
+                    </div>
+                    <button class="search_bar-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+
+                <div class="profile-dropdown-icon_container">
+                    <div class="menu_profile">
+                        <img class="menu_profile-img"
+                             src="assets/img/profileImage1.png"
+                             alt="profileImage1"
+                             width="20px" />
+
+
+                        <div class="menu_profile_overflow">
+                            <div class="menu_profile_overflow-item"></div>
+                            <div class="menu_profile_overflow-item"></div>
+                            <div class="menu_profile_overflow-item"></div>
+                        </div>
+
+                        <div class="menu_profile_container">
+                            <ul>
+                                <div class="menu_profile_container-box menu_profile_container-main">
+                                    <div class="menu_profile_container-img">
+                                        <img src="assets/img/profileImage1.png"
+                                             alt="profile">
+                                    </div>
+                                    <div class="menu_profile_container-info">
+                                        <h3 class="menu_profile_container-heading">Marwa El-Shoura</h3>
+                                        <a class="menu_profile_container-mail"
+                                           href="mailto:#">marwa@marwa.com</a>
+                                        <a class="link_inline"
+                                           href="#">Visit Profile</a>
+                                    </div>
+                                </div>
+                                <div class="menu_profile_container-box">
+                                    <li><a class="menu_profile_container-link"
+                                           href="#"><i class="menu_profile_container-icon fas fa-pen"></i>Edit Profile</a></li>
+                                    <li><a class="menu_profile_container-link"
+                                           href="#"><i class="menu_profile_container-icon fas fa-heart"></i>Update Career Interests</a></li>
+                                </div>
+                                <div class="menu_profile_container-box">
+                                    <li><a class="menu_profile_container-link"
+                                           href="#"><i class="menu_profile_container-icon fas fa-user-friends fas fa-user-friends"></i>Career Coaching</a></li>
+                                    <li><a class="menu_profile_container-link"
+                                           href="#"><i class="menu_profile_container-icon fas fa-user-friends fas fa-book"></i>Career Reading</a></li>
+                                    <li><a class="menu_profile_container-link"
+                                           href="#"><i class="menu_profile_container-icon fas fa-bookmark"></i>Learning Opportunities</a></li>
+                                </div>
+                                <div class="menu_profile_container-box">
+                                    <li><a class="menu_profile_container-link"
+                                           href="#"><i class="menu_profile_container-icon fas fa-phone-alt"></i>Help Center</a></li>
+                                    <li><a class="menu_profile_container-link"
+                                           href="#"><i class="menu_profile_container-icon fas fa-info-circle"></i>About Us</a></li>
+                                    <li><a class="menu_profile_container-link"
+                                           href="#"><i class="menu_profile_container-icon fas fa-handshake"></i>Become a Partner</a></li>
+                                    <li><a class="menu_profile_container-link"
+                                           href="#"><i class="menu_profile_container-icon fas fa-envelope"></i>Contact Us</a></li>
+                                </div>
+                                <div class="menu_profile_container-box">
+                                    <li><a class="menu_profile_container-link"
+                                           href="#"><i class="menu_profile_container-icon fas fa-cog"></i>Account Settings</a></li>
+                                    <li><a class="menu_profile_container-link"
+                                           href="#"><i class="menu_profile_container-icon fas fa-sign-out-alt"></i>Logout</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 d-md-none">
+                <nav class="side_nav-settings">
+                    <ul class="side_nave-list">
+                        <li class="side_nav-settings_item ">
+                            <a href="settings.html"
+                               class="side_nav-settings_link">General
+                                Info</a>
+                        </li>
+                        <li class="side_nav-settings_item">
+                            <a href="career-interests.html"
+                               class="side_nav-settings_link">
+                                Career
+                                intersets
+                            </a>
+                        </li>
+                        <li class="side_nav-settings_item">
+                            <a href="experince.html"
+                               class="side_nav-settings_link">
+                                Experience
+                            </a>
+                        </li>
+                        <li class="side_nav-settings_item">
+                            <a href="education.html"
+                               class="side_nav-settings_link">
+                                Education
+                            </a>
+                        </li>
+                        <li class="side_nav-settings_item side_nav-settings_item-active">
+                            <a href="skills.html"
+                               class="side_nav-settings_link">
+                                Skills
+                            </a>
+                        </li>
+                        <li class="side_nav-settings_item">
+                            <a href="online-presense.html"
+                               class="side_nav-settings_link">
+                                Online
+                                Presense
+                            </a>
+                        </li>
+                        <li class="side_nav-settings_item">
+                            <a href="cv.html"
+                               class="side_nav-settings_link">
+                                Upload
+                                CV
+                            </a>
+                        </li>
+                        <li class="side_nav-settings_item">
+                            <a href="achivement.html"
+                               class="side_nav-settings_link">
+                                Achievements
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <br>
+                <div class="anotherpart">
+                    <h3 class="anotherpart_h">
+                        Improve Your Profile
+                    </h3>
+                    <p class="body-anotherpart">0 employers viewed your profile in the last 30 days (39 all time)</p>
+                    <div class="progress">
+                        <div class="progress-bar"
+                             role="progressbar"
+                             aria-valuenow="70"
+                             aria-valuemin="0"
+                             aria-valuemax="100"
+                             style="width:70%">
+                            <span class="sr-only">70% Complete</span>
+                        </div>
                     </div>
                     <p class="body-anotherpart">Your profile strength is 95%</p>
 
 
 
                 </div>
-                
-        </div>
 
-        <div class="col-7">
-
-            <div class="info_container_three">
-                <div class="info_container_header can_edit">
-                    <h3 class="info_container_heading">Work experiences/Activities? <span class="smallheading_span">— Hint: Start with your current or most recent work experience</span></h3>
-                </div>
-                <div class="work_experince-container">
-                    <div class="work_experince">
-                        <div class="work_experince_top">
-                            <p>E-marketing Assistant at Dar Alebda Real Estate</p>
-                            <i class="fas fa-times"></i>
-                        </div>
-                        <div class="work_experince_bottom ">
-                            <div class="grid-2 skill_start-container">
-                                <div class="stars_container">
-                                    <h4>Proficiency:</h4>
-                                    <div class="stars">
-                                        <i class="star star-active fas fa-star"></i>
-                                        <i class="star star-active fas fa-star"></i>
-                                        <i class="star star-active fas fa-star"></i>
-                                        <i class="star fas fa-star"></i>
-                                        <i class="star fas fa-star"></i>
-                                    </div>
-                                </div>
-                                <div class="stars_container">
-                                    <h4>Interest:</h4>
-                                    <div class="stars">
-                                        <i class="star star-active fas fa-star"></i>
-                                        <i class="star star-active fas fa-star"></i>
-                                        <i class="star star-active fas fa-star"></i>
-                                        <i class="star fas fa-star"></i>
-                                        <i class="star fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="smallheading_span">November 2018 - April 2019</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <button class="btn_big">+ Add Experience/Activity</button>
-                </div>
             </div>
 
-            <div class="info_container_three">
-                <div class="info_container_header can_edit">
-                    <h3 class="info_container_heading">Work experiences/Activities? <span class="smallheading_span">— Hint: Start with your current or most recent work experience</span></h3>
+            <div class="col-lg-9 nopadding">
+
+                <div class="info_container_three">
+                    <div class="info_container_header can_edit">
+                        <h3 class="info_container_heading">Work experiences/Activities? <span class="smallheading_span">— Hint: Start with your current or most recent work experience</span></h3>
+                    </div>
+                    <div class="work_experince-container">
+                        <div class="work_experince">
+                            <div class="work_experince_top">
+                                <p>E-marketing Assistant at Dar Alebda Real Estate</p>
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <div class="work_experince_bottom ">
+                                <div class="grid-2 skill_start-container">
+                                    <div class="stars_container">
+                                        <h4>Proficiency:</h4>
+                                        <div class="stars">
+                                            <i class="star star-active fas fa-star"></i>
+                                            <i class="star star-active fas fa-star"></i>
+                                            <i class="star star-active fas fa-star"></i>
+                                            <i class="star fas fa-star"></i>
+                                            <i class="star fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="stars_container">
+                                        <h4>Interest:</h4>
+                                        <div class="stars">
+                                            <i class="star star-active fas fa-star"></i>
+                                            <i class="star star-active fas fa-star"></i>
+                                            <i class="star star-active fas fa-star"></i>
+                                            <i class="star fas fa-star"></i>
+                                            <i class="star fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="smallheading_span">November 2018 - April 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btn_big">+ Add Experience/Activity</button>
+                    </div>
                 </div>
 
-                <div class="language_container">
-                    <div class="language_title">
-                        <h3>Arabic</h3>
+                <div class="info_container_three">
+                    <div class="info_container_header can_edit">
+                        <h3 class="info_container_heading">Work experiences/Activities? <span class="smallheading_span">— Hint: Start with your current or most recent work experience</span></h3>
                     </div>
-                    <div class="">
-                        <div class="lan_spec">
-                            <h4 class="lang_heading">Reading</h4>
-                            <p class="
+
+                    <div class="language_container">
+                        <div class="border-b language_title">
+                            <h3>Arabic</h3>
+                        </div>
+                        <div class="border-b">
+                            <div class="lan_spec">
+                                <h4 class="lang_heading">Reading</h4>
+                                <p class="
                                 smallheading_span">Fluent</p>
-                            <div class="stars">
-                                <i class="star star-active fas fa-star"></i>
-                                <i class="star star-active fas fa-star"></i>
-                                <i class="star star-active fas fa-star"></i>
-                                <i class="star fas fa-star"></i>
-                                <i class="star fas fa-star"></i>
+                                <div class="stars">
+                                    <i class="star star-active fas fa-star"></i>
+                                    <i class="star star-active fas fa-star"></i>
+                                    <i class="star star-active fas fa-star"></i>
+                                    <i class="star fas fa-star"></i>
+                                    <i class="star fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="">
-                        <div class="lan_spec">
-                            <h4 class="lang_heading">Reading</h4>
-                            <p class="smallheading_span">Fluent</p>
-                            <div class="stars">
-                                <i class="star star-active fas fa-star"></i>
-                                <i class="star star-active fas fa-star"></i>
-                                <i class="star star-active fas fa-star"></i>
-                                <i class="star fas fa-star"></i>
-                                <i class="star fas fa-star"></i>
+                        <div class="border-b">
+                            <div class="lan_spec">
+                                <h4 class="lang_heading">Reading</h4>
+                                <p class="smallheading_span">Fluent</p>
+                                <div class="stars">
+                                    <i class="star star-active fas fa-star"></i>
+                                    <i class="star star-active fas fa-star"></i>
+                                    <i class="star star-active fas fa-star"></i>
+                                    <i class="star fas fa-star"></i>
+                                    <i class="star fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="">
-                        <div class="lan_spec">
-                            <h4 class="lang_heading">Reading</h4>
-                            <p class="smallheading_span">Fluent</p>
-                            <div class="stars">
-                                <i class="star star-active fas fa-star"></i>
-                                <i class="star star-active fas fa-star"></i>
-                                <i class="star star-active fas fa-star"></i>
-                                <i class="star fas fa-star"></i>
-                                <i class="star fas fa-star"></i>
+                        <div class="">
+                            <div class="lan_spec">
+                                <h4 class="lang_heading">Reading</h4>
+                                <p class="smallheading_span">Fluent</p>
+                                <div class="stars">
+                                    <i class="star star-active fas fa-star"></i>
+                                    <i class="star star-active fas fa-star"></i>
+                                    <i class="star star-active fas fa-star"></i>
+                                    <i class="star fas fa-star"></i>
+                                    <i class="star fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="">
-                        <div class="lan_spec">
-                            <h4 class="lang_heading">Reading</h4>
-                            <p class="smallheading_span">Fluent</p>
-                            <div class="stars">
-                                <i class="star star-active fas fa-star"></i>
-                                <i class="star star-active fas fa-star"></i>
-                                <i class="star star-active fas fa-star"></i>
-                                <i class="star fas fa-star"></i>
-                                <i class="star fas fa-star"></i>
+                        <div class="">
+                            <div class="lan_spec">
+                                <h4 class="lang_heading">Reading</h4>
+                                <p class="smallheading_span">Fluent</p>
+                                <div class="stars">
+                                    <i class="star star-active fas fa-star"></i>
+                                    <i class="star star-active fas fa-star"></i>
+                                    <i class="star star-active fas fa-star"></i>
+                                    <i class="star fas fa-star"></i>
+                                    <i class="star fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
+                        <div class="lang_action">
+                            <div><a href="#"><i class="fas fa-pen"></i></a></div>
+                            <div><a href="#"><i class="fas fa-times-circle"></i></a></div>
+                        </div>
                     </div>
-                    <div class="lang_action">
-                        <div><a href="#">1</a></div>
-                        <div><a href="#">1</a></div>
-                    </div>
-                </div>
 
-                <div>
-                    <button class="btn_big">+ Add Experience/Activity</button>
+                    <div>
+                        <button class="btn_big">+ Add Experience/Activity</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
+    <script src="assets/js/main.js"></script>
+    <script>
+        profileMenuSwitch();
+        openSmMenu();
+    </script>
 </body>
 
 </html>

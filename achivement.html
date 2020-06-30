@@ -5,23 +5,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0" />
-
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600 &display=swap"
           rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
             integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
             crossorigin="anonymous"></script>
-             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet"
           href="form.css" />
     <link rel="stylesheet"
           href="style.css" />
-    <title>WUZZUF</title>
+    <title>Achivement</title>
 </head>
 
 <body>
-    <header class="header-section">
+    <header class="header_sm d-md-vis">
+        <nav class="header_sm_nav">
+            <div class="header_sm_back back_btn_container">
+                <a class="back_btn"
+                   href="#">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+            <h3 class="header_sm_heading btnSmOpen ">Setting <i class="fas fa-angle-down"></i></h3>
+            <ul class="header_sm_dropDown">
+                <li class="header_sm_item"> <a href="#">1</a> </li>
+                <li class="header_sm_item"> <a href="#">2</a> </li>
+                <li class="header_sm_item"> <a href="#">3</a> </li>
+                <li class="header_sm_item"> <a href="#">4</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="header-section d-md-none">
         <nav class="top-navigation">
             <ul class="top-navigation_list">
                 <li class="top_logo">
@@ -69,9 +88,10 @@
             </ul>
         </nav>
     </header>
+
     <div class="container">
-        <div class="flex">
-            <div class="col-2 margin-r-l">
+        <div class="row">
+            <div class="col-lg-3 d-md-none">
                 <nav class="side_nav-settings">
                     <ul class="side_nave-list">
                         <li class="side_nav-settings_item ">
@@ -126,27 +146,31 @@
                         </li>
                     </ul>
                 </nav>
-<br>
-                  <div class = "anotherpart">
-                	<h3 class="anotherpart_h">
-                		Improve Your Profile
-                	</h3>
-                	<p class="body-anotherpart">0 employers viewed your profile in the last 30 days (39 all time)</p>
-                	  <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                      <span class="sr-only">70% Complete</span>
-                     </div>
+                <br>
+                <div class="anotherpart">
+                    <h3 class="anotherpart_h">
+                        Improve Your Profile
+                    </h3>
+                    <p class="body-anotherpart">0 employers viewed your profile in the last 30 days (39 all time)</p>
+                    <div class="progress">
+                        <div class="progress-bar"
+                             role="progressbar"
+                             aria-valuenow="70"
+                             aria-valuemin="0"
+                             aria-valuemax="100"
+                             style="width:70%">
+                            <span class="sr-only">70% Complete</span>
+                        </div>
                     </div>
                     <p class="body-anotherpart">Your profile strength is 95%</p>
 
 
 
                 </div>
-                
+
             </div>
 
-            <div class="col-7">
-
+            <div class="col-lg-9">
 
                 <div>
 
@@ -182,6 +206,11 @@
             </div>
         </div>
     </div>
+
+    <script>
+        profileMenuSwitch();
+        openSmMenu();
+    </script>
 </body>
 
 </html>

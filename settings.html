@@ -5,28 +5,50 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport"
 		  content="width=device-width, initial-scale=1.0" />
-
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600 &display=swap"
 		  rel="stylesheet" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
 			integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
 			crossorigin="anonymous"></script>
-			 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
+	<link rel="stylesheet"
+		  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet"
+		  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 	<link rel="stylesheet"
 		  href="form.css" />
 	<link rel="stylesheet"
 		  href="style.css" />
-	<title>WUZZUF</title>
+	<title>Settings</title>
 </head>
 
 <body>
-	<header class="header-section">
+	<header class="header_sm d-md-vis">
+		<nav class="header_sm_nav">
+			<div class="header_sm_back back_btn_container">
+				<a class="back_btn"
+				   href="#">
+					<i class="fas fa-arrow-left"></i>
+				</a>
+			</div>
+			<h3 class="header_sm_heading btnSmOpen ">Setting <i class="fas fa-angle-down"></i></h3>
+			<ul class="header_sm_dropDown">
+				<li class="header_sm_item"> <a href="#">1</a> </li>
+				<li class="header_sm_item"> <a href="#">2</a> </li>
+				<li class="header_sm_item"> <a href="#">3</a> </li>
+				<li class="header_sm_item"> <a href="#">4</a> </li>
+			</ul>
+		</nav>
+	</header>
+
+	<header class="d-md-none header-section">
 		<nav class="top-navigation">
 			<ul class="top-navigation_list">
 				<li class="top_logo">
 					<img src="assets/img/Wuzzuf-Logo-1.png"
 						 alt="wuzzuf-logo" />
+				</li>
+				<li class="small_screen_arrow">
+					<i class="fas fa-arrow-left"></i>
 				</li>
 
 				<ul class="top-navigation_list-link">
@@ -55,23 +77,77 @@
 					</button>
 				</div>
 
-				<div class="menu_profile">
-					<img class="menu_profile-img"
-						 src="assets/img/profileImage1.png"
-						 alt="profileImage1"
-						 width="20px" />
-					<div class="menu_profile_overflow">
-						<div class="menu_profile_overflow-item"></div>
-						<div class="menu_profile_overflow-item"></div>
-						<div class="menu_profile_overflow-item"></div>
+
+				<div class="profile-dropdown-icon_container">
+					<div class="menu_profile">
+						<img class="menu_profile-img"
+							 src="assets/img/profileImage1.png"
+							 alt="profileImage1"
+							 width="20px" />
+
+
+						<div class="menu_profile_overflow">
+							<div class="menu_profile_overflow-item"></div>
+							<div class="menu_profile_overflow-item"></div>
+							<div class="menu_profile_overflow-item"></div>
+						</div>
+
+						<div class="menu_profile_container">
+							<ul>
+								<div class="menu_profile_container-box menu_profile_container-main">
+									<div class="menu_profile_container-img">
+										<img src="assets/img/profileImage1.png"
+											 alt="profile">
+									</div>
+									<div class="menu_profile_container-info">
+										<h3 class="menu_profile_container-heading">Marwa El-Shoura</h3>
+										<a class="menu_profile_container-mail"
+										   href="mailto:#">marwa@marwa.com</a>
+										<a class="link_inline"
+										   href="#">Visit Profile</a>
+									</div>
+								</div>
+								<div class="menu_profile_container-box">
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-pen"></i>Edit Profile</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-heart"></i>Update Career Interests</a></li>
+								</div>
+								<div class="menu_profile_container-box">
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-user-friends fas fa-user-friends"></i>Career Coaching</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-user-friends fas fa-book"></i>Career Reading</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-bookmark"></i>Learning Opportunities</a></li>
+								</div>
+								<div class="menu_profile_container-box">
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-phone-alt"></i>Help Center</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-info-circle"></i>About Us</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-handshake"></i>Become a Partner</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-envelope"></i>Contact Us</a></li>
+								</div>
+								<div class="menu_profile_container-box">
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-cog"></i>Account Settings</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-sign-out-alt"></i>Logout</a></li>
+								</div>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</ul>
 		</nav>
 	</header>
+
 	<div class="container">
-		<div class="flex">
-			<div class="col-2 margin-r-l">
+		<div class="row">
+			<div class="col-lg-3 d-md-none">
 				<nav class="side_nav-settings">
 					<ul class="side_nave-list">
 						<li class="side_nav-settings_item side_nav-settings_item-active">
@@ -126,32 +202,36 @@
 						</li>
 					</ul>
 				</nav>
-<br>
-				  <div class = "anotherpart">
-                	<h3 class="anotherpart_h">
-                		Improve Your Profile
-                	</h3>
-                	<p class="body-anotherpart">0 employers viewed your profile in the last 30 days (39 all time)</p>
-                	  <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                      <span class="sr-only">70% Complete</span>
-                     </div>
-                    </div>
-                    <p class="body-anotherpart">Your profile strength is 95%</p>
+				<br>
+				<div class="anotherpart">
+					<h3 class="anotherpart_h">
+						Improve Your Profile
+					</h3>
+					<p class="body-anotherpart">0 employers viewed your profile in the last 30 days (39 all time)</p>
+					<div class="progress">
+						<div class="progress-bar"
+							 role="progressbar"
+							 aria-valuenow="70"
+							 aria-valuemin="0"
+							 aria-valuemax="100"
+							 style="width:70%">
+							<span class="sr-only">70% Complete</span>
+						</div>
+					</div>
+					<p class="body-anotherpart">Your profile strength is 95%</p>
 
 
 
-                </div>
-                
+				</div>
+
 			</div>
 
-			<div class="col-7">
+			<div class="col-lg-9 nopadding">
 				<div class="edit_porofile-container">
 
 					<div class="edit_porofile-img">
 						<img src="assets/img/profileImage1.png"
-							 alt="img"
-							 width="20px" />
+							 alt="img" />
 					</div>
 
 					<div class="edit_porofile-info">
@@ -749,11 +829,11 @@
 						</div>
 
 						<form action="">
+
 							<div class="input-section_container">
 								<h3 class="input_name"
 									for="nationality"> Country <span class="required">*</span> </h3>
-								<select class="input_select"
-										style=" width: 320px;"
+								<select class="input_select width-sm-100p  width-lg-300"
 										name="DOBDay">
 									<option>- Day -</option>
 									<option value="1">1</option>
@@ -793,8 +873,7 @@
 							<div class="input-section_container">
 								<h3 class="input_name"
 									for="nationality"> City <span class="required">*</span></h3>
-								<select class="input_select"
-										style=" width: 320px;"
+								<select class="input_select width-sm-100p width-lg-300"
 										name="DOBDay">
 									<option>- Day -</option>
 									<option value="1">1</option>
@@ -833,11 +912,10 @@
 
 							<div class="input-section_container">
 								<h3 class="input_name"
-									for="nationality"> Area</h3>
-								<select class="input_select"
-										style=" width: 320px;"
-										name="DOBDay">
-									<option>- Day -</option>
+									for="nationality">Area</h3>
+								<select class="width-lg-300 width-sm-100p input_select"
+										name="DOBArea">
+									<option>- Area -</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
 									<option value="3">3</option>
@@ -878,9 +956,8 @@
 									Your Postal Code
 								</label>
 								<input type="text"
-									   class="input"
-									   style=" width: 320px;"
-									   name="frist_name"
+									   class="input width-lg-300 width-sm-100p"
+									   name="postal_code"
 									   id="" />
 							</div>
 
@@ -912,43 +989,43 @@
 								Your Contact Info <span class="smallheading_span"> — Hint: Companies will be contacting you on this number</span>
 							</h3>
 						</div>
+
 						<div class="input-section_container input_container">
 							<label class="input_name"
-								   for="frist_name">
+								   for="mobile_number">
 								Mobile Number <span class="required">*</span>
 							</label>
-							<input type="text"
-								   class="input"
-								   style=" width: 320px;"
-								   name="frist_name"
-								   id="" />
+							<input type="tel"
+								   class="input width-sm-100p "
+								   name="mobile_number"
+								   id="mobile_number"
+								   required />
 						</div>
+
 						<div class="input-section_container input_container">
 							<label class="input_name"
-								   for="frist_name">
+								   for="alt_mobile_number">
 								Alternative Number
 							</label>
 							<input type="text"
-								   class="input"
-								   style=" width: 320px;"
-								   name="frist_name"
-								   id="" />
+								   class="input width-sm-100p"
+								   name="alt_mobile_number"
+								   id="alt_mobile_number" />
 						</div>
+
 					</div>
+
 					<button class="btn_big">Save</button>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<script src="assets/js/main.js"></script>
+	<script>
+		profileMenuSwitch();
+		openSmMenu();
+	</script>
 </body>
 
 </html>
-
-<!-- <select class="input_select"
-		name="nationality">
-	<option value="">--
-		select
-		one
-		--</option>
-	
-</select> -->

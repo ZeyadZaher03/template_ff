@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600 &display=swap"
-			rel="stylesheet"
-		/>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0" />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600 &display=swap"
+		  rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
 			integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
-			crossorigin="anonymous"
-		></script>
+			crossorigin="anonymous"></script>
+	<link rel="stylesheet"
+		  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet"
+		  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+	<link rel="stylesheet"
+		  href="form.css" />
+	<link rel="stylesheet"
+		  href="style.css" />
+	<title>WUZZUF</title>
+</head>
 
-		<link rel="stylesheet" href="style.css" />
-		<title>WUZZUF</title>
-	</head>
+<body>
 
-	<body>
-		<header class="header-section">
-			<nav class="top-navigation">
-				<ul class="top-navigation_list">
-					<li class="top_logo">
-						<img src="assets/img/Wuzzuf-Logo-1.png" alt="wuzzuf-logo" />
+	<header class="header-section">
+		<nav class="top-navigation">
+			<ul class="top-navigation_list">
+				<li class="top_logo">
+					<img src="assets/img/Wuzzuf-Logo-1.png"
+						 alt="wuzzuf-logo" />
+				</li>
+				<li class="small_screen_arrow">
+					<i class="fas fa-arrow-left"></i>
+				</li>
+
+				<ul class="top-navigation_list-link">
+					<li class="top-navigation_list-item top-navigation_list-item_active">
+						<a href="#">Explore</a>
 					</li>
-
-					<ul class="top-navigation_list-link">
-						<li class="top-navigation_list-item top-navigation_list-item_active">
-							<a href="#">Explore</a>
-						</li>
-						<li class="top-navigation_list-item">
-							<a href="#">SAved</a>
-						</li>
-						<li class="top-navigation_list-item">
-							<a href="#">Applications</a>
-						</li>
-					</ul>
+					<li class="top-navigation_list-item">
+						<a href="#">SAved</a>
+					</li>
+					<li class="top-navigation_list-item">
+						<a href="#">Applications</a>
+					</li>
 				</ul>
+			</ul>
 
-				<ul class="top-navigation_list">
-					<div class="search_bar_container">
-						<div class="search_bar">
-							<input class="search_bar-input" type="text" name="" id="" />
-						</div>
-						<button class="search_bar-button">
-							<i class="fas fa-search"></i>
-						</button>
+			<ul class="top-navigation_list">
+				<div class="search_bar_container">
+					<div class="search_bar">
+						<input class="search_bar-input"
+							   type="text"
+							   name=""
+							   id="" />
 					</div>
+					<button class="search_bar-button">
+						<i class="fas fa-search"></i>
+					</button>
+				</div>
 
 
-					       <div class="profile-dropdown-icon_container">
-                                <div class="menu_profile">
-						<img
-							class="menu_profile-img"
-							src="assets/img/profileImage1.png"
-							alt="profileImage1"
-							width="20px"
-						/>
+				<div class="profile-dropdown-icon_container">
+					<div class="menu_profile">
+						<img class="menu_profile-img"
+							 src="assets/img/profileImage1.png"
+							 alt="profileImage1"
+							 width="20px" />
 
 
 						<div class="menu_profile_overflow">
@@ -64,28 +74,70 @@
 							<div class="menu_profile_overflow-item"></div>
 							<div class="menu_profile_overflow-item"></div>
 						</div>
+
+						<div class="menu_profile_container">
+							<ul>
+								<div class="menu_profile_container-box menu_profile_container-main">
+									<div class="menu_profile_container-img">
+										<img src="assets/img/profileImage1.png"
+											 alt="profile">
+									</div>
+									<div class="menu_profile_container-info">
+										<h3 class="menu_profile_container-heading">Marwa El-Shoura</h3>
+										<a class="menu_profile_container-mail"
+										   href="mailto:#">marwa@marwa.com</a>
+										<a class="link_inline"
+										   href="#">Visit Profile</a>
+									</div>
+								</div>
+								<div class="menu_profile_container-box">
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-pen"></i>Edit Profile</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-heart"></i>Update Career Interests</a></li>
+								</div>
+								<div class="menu_profile_container-box">
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-user-friends fas fa-user-friends"></i>Career Coaching</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-user-friends fas fa-book"></i>Career Reading</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-bookmark"></i>Learning Opportunities</a></li>
+								</div>
+								<div class="menu_profile_container-box">
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-phone-alt"></i>Help Center</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-info-circle"></i>About Us</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-handshake"></i>Become a Partner</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-envelope"></i>Contact Us</a></li>
+								</div>
+								<div class="menu_profile_container-box">
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-cog"></i>Account Settings</a></li>
+									<li><a class="menu_profile_container-link"
+										   href="#"><i class="menu_profile_container-icon fas fa-sign-out-alt"></i>Logout</a></li>
+								</div>
+							</ul>
+						</div>
 					</div>
-                            </div>
+				</div>
+			</ul>
+		</nav>
+	</header>
 
+	<div class="container">
+		<section class="main_info_section col-12">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-9">
 
-
-
-
-					
-					
-				</ul>
-			</nav>
-		</header>
-		<div class="container">
-			<section class="main_info_section">
-				<div class="col-7">
 					<div class="info_container_one myprofile">
 						<div class="myprofile_img-container col-1">
-							<img
-								class="myprofile_img"
-								src="assets/img/profileImage1.png"
-								alt="profile_img"
-							/>
+							<img class="myprofile_img"
+								 src="assets/img/profileImage1.png"
+								 alt="profile_img" />
 						</div>
 
 						<div class="myprofile_info col-5">
@@ -93,140 +145,200 @@
 								<h3 class="heading-box">
 									John doe
 								</h3>
-								<a class="can_edit-icon" href="settings.html"><i class="fas fa-pen"></i></a>
+								<a class="can_edit-icon"
+								   href="settings.html"><i class="fas fa-pen"></i></a>
 							</div>
 							<div class="can_edit">
 								<p class="sub-heading">
 									E-Markting assitant
 								</p>
-								<a class="can_edit-icon" href="settings.html"><i class="fas fa-pen"></i></a>
+								<a class="can_edit-icon"
+								   href="settings.html"><i class="fas fa-pen"></i></a>
 							</div>
 							<div class="can_edit">
 								<p class="regular-text">
-									address
+									San Stefano, Alexandria, Egypt
 								</p>
-								<a class="can_edit-icon" href="settings.html"><i class="fas fa-pen"></i></a>
+								<a class="can_edit-icon"
+								   href="settings.html"><i class="fas fa-pen"></i></a>
 							</div>
 							<div class="can_edit">
-								<a href="#">Micorsoft Office</a>,
-								<a href="#">SQL</a>
-								,
-								<a href="#">HTML</a>
-								,
-								<a href="#">CSS</a>
-								<a class="can_edit-icon" href="settings.html"><i class="fas fa-pen"></i></a>
+
+								<a class="skills_item-style skills_item-active"
+								   href="#">Micorsoft Office</a>
+								<a class="skills_item-style skills_item-active"
+								   href="#">SQL</a>
+								<a class="skills_item-style skills_item-sec"
+								   href="#">HTML</a>
+								<a class="skills_item-style skills_item-sec"
+								   href="#">CSS</a>
+								<a class="can_edit-icon"
+								   href="settings.html">
+									<i class="fas fa-pen"></i>
+								</a>
 							</div>
 						</div>
 
 						<div class="myprofile_social col-1">
-							<div class="social can_edit">
-								<a href="#"><i class="fab fa-facebook-f"></i></a>
-								<a href="#"><i class="fab fa-twitter"></i></a>
-								<a href="#"><i class="fab fa-linkedin-in"></i></a>
-								<a class="can_edit-icon" href="online-presense.html"><i class="fas fa-pen"></i></a>
+							<div class="social flex can_edit">
+								<a class="can_edit-icon"
+								   href="online-presense.html"><i class="fas fa-pen"></i></a>
+
+								<a href="#"><i class="linkedin_color social_link fab fa-linkedin-in"></i></a>
+								<a href="#"><i class="facebook_color social_link fab fa-facebook-f"></i></a>
+								<a href="#"><i class="twitter_color social_link fab fa-twitter"></i></a>
 							</div>
 						</div>
 					</div>
 
-					<div class="info_container_two">
-						<div class="col-1">
-							<h5>
-								General Info
-							</h5>
+					<div class="info_container_two general_info_container">
+						<div class="onlyCompanies"><i class="fas fa-eye"></i> ONLY COMPANIES SEE THIS SECTION</div>
+						<div class="col-1 general_info">
+							<h5 class="header-5"><b>General Info: </b></h5>
 							<div class="can_edit">
-								<p>
+								<p class="general_info_par">
 									<b>Age:</b>
 									25 Years
 								</p>
-								<a class="can_edit-icon" href="settings.html"><i class="fas fa-pen"></i></a>
+								<a class="can_edit-icon"
+								   href="settings.html"><i class="fas fa-pen"></i></a>
 							</div>
 							<div class="can_edit">
-								<p>
+								<p class="general_info_par">
 									<b>Experience:</b>
 									25 Entry Level
 								</p>
-								<a class="can_edit-icon" href="settings.html"><i class="fas fa-pen"></i></a>
+								<a class="can_edit-icon"
+								   href="settings.html"><i class="fas fa-pen"></i></a>
 							</div>
 							<div class="can_edit">
-								<p>
+								<p class="general_info_par">
 									<b>Minimum Salary:</b>
 									Confidential
 								</p>
-								<a class="can_edit-icon" href="settings.html"><i class="fas fa-pen"></i></a>
+								<a class="can_edit-icon"
+								   href="settings.html"><i class="fas fa-pen"></i></a>
 							</div>
 							<div class="can_edit">
-								<p>
+								<p class="general_info_par">
 									<b>Job Search Status:</b>
 									Actively searching
 								</p>
-								<a class="can_edit-icon" href="settings.html"><i class="fas fa-pen"></i></a>
+								<a class="can_edit-icon"
+								   href="settings.html"><i class="fas fa-pen"></i></a>
+							</div>
+							<a class="link_inline"
+							   id="seemoreGeneralinfo"> See more <i class="fas fa-angle-down"></i></a>
+
+							<div class="seemore">
+								<div class="can_edit">
+									<p class="general_info_par"><b>Nationality:</b> Egypt</p>
+									<a class="can_edit-icon"
+									   href="#"><i class="fas fa-pen"></i></a>
+								</div>
+
+								<div class="can_edit">
+									<p class="general_info_par"><b>Education Level:</b> Bachelor's Degree</p>
+									<a class="can_edit-icon"
+									   href="#"><i class="fas fa-pen"></i></a>
+								</div>
+
+								<div class="can_edit">
+									<p class="general_info_par"><b>Gender:</b> Female</p>
+									<a class="can_edit-icon"
+									   href="#"><i class="fas fa-pen"></i></a>
+								</div>
+
+								<div class="can_edit">
+									<p class="general_info_par"><b>Military Status:</b> Not Applicable</p>
+									<a class="can_edit-icon"
+									   href="#"><i class="fas fa-pen"></i></a>
+								</div>
+
+								<div class="can_edit">
+									<p class="general_info_par"><b>Marital Status:</b> Single-No dependants</p>
+									<a class="can_edit-icon"
+									   href="#"><i class="fas fa-pen"></i></a>
+								</div>
+
+								<div class="can_edit">
+									<p class="general_info_par"><b>Driving License:</b> Yes- Owns a car</p>
+									<a class="can_edit-icon"
+									   href="#"><i class="fas fa-pen"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-1 contact_info">
+							<h4 class="header-5"><b>Contact Info: </b></h4>
+
+							<div class="can_edit">
+								<p class="general_info_par"><b><i class="general_info_icn fas fa-mobile-alt"></i></b> 201154386320</p>
+								<a class="can_edit-icon"
+								   href="settings.html"><i class="fas fa-pen"></i></a>
 							</div>
 
-							<!-- <div class="seeemore">
-                <div class="can_edit">
-                  <p><b>Nationality:</b> Egypt</p>
-                  <a class="can_edit-icon" href="#"><i class="fas fa-pen"></i></a>
-                </div>
-                <div class="can_edit">
-                  <p><b>Education Level:</b> Bachelor's Degree</p>
-                  <a class="can_edit-icon" href="#"><i class="fas fa-pen"></i></a>
-                </div>
-                <div class="can_edit">
-                  <p><b>Gender:</b> Female</p>
-                  <a class="can_edit-icon" href="#"><i class="fas fa-pen"></i></a>
-                </div>
-                <div class="can_edit">
-                  <p><b>Military Status:</b> Not Applicable</p>
-                  <a class="can_edit-icon" href="#"><i class="fas fa-pen"></i></a>
-                </div>
-                <div class="can_edit">
-                  <p><b>Marital Status:</b> Single-No dependants</p>
-                  <a class="can_edit-icon" href="#"><i class="fas fa-pen"></i></a>
-                </div>
-                
-                <div class="can_edit">
-                  <p><b>Driving License:</b> Yes- Owns a car</p>
-                  <a class="can_edit-icon" href="#"><i class="fas fa-pen"></i></a>
-                </div>
-              </div> -->
-						</div>
-						<div class="col-1">
-							<h4>
-								Contact Info:
-							</h4>
 							<div class="can_edit">
-								<p>
-									<b>phone icon:</b>
-									Yes- Owns a car201154386320
-								</p>
-								<a class="can_edit-icon" href="settings.html"><i class="fas fa-pen"></i></a>
+								<p class="general_info_par"><b><i class="general_info_icn fas fa-envelope"></i></b>marwaelshora2013@gmail.com</p>
+								<a class="can_edit-icon"
+								   href="settings.html"><i class="fas fa-pen"></i></a>
 							</div>
+
 							<div class="can_edit">
-								<p>
-									<b>email:</b>
-									marwaelshora2013@gmail.com
-								</p>
-								<a class="can_edit-icon" href="settings.html"><i class="fas fa-pen"></i></a>
+								<p class="general_info_par"><b><i class="general_info_icn fas fa-file"></i></b>CV last updated 1 year ago<a href="Update">Update</a></p>
+								<a class="can_edit-icon"
+								   href="settings.html"><i class="fas fa-pen"></i></a>
 							</div>
-							<div class="can_edit">
-								<p>
-									<b>cv:</b>
-									CV last updated 1 year ago
-									<a href="Update">Update</a>
-								</p>
-								<a class="can_edit-icon" href="settings.html"><i class="fas fa-pen"></i></a>
+
+							<div class="seemore">
+
+								<div class="can_edit">
+									<h4 class="header-5"><b>Career Interests: </b></h4>
+									<a class="can_edit-icon"
+									   href="#"><i class="fas fa-pen"></i></a>
+								</div>
+
+								<div class="can_edit">
+									<p class="general_info_par"><b>Job Titles and Keywords:</b> oracle developer · web designer · Analyst · software developer · back end developer</p>
+									<a class="can_edit-icon"
+									   href="#"><i class="fas fa-pen"></i></a>
+								</div>
+
+								<div class="can_edit">
+									<p class="general_info_par"><b>Job Roles:</b> IT/Software Development · Customer Service/Support · Education/Teaching · Training/Instructor · Analyst/Research</p>
+									<a class="can_edit-icon"
+									   href="#"><i class="fas fa-pen"></i></a>
+								</div>
+
+								<div class="can_edit">
+									<p class="general_info_par"><b>Job Types:</b> Full Time · Part Time · Freelance / Project · Internship · Shift Based · Work From Home</p>
+									<a class="can_edit-icon"
+									   href="#"><i class="fas fa-pen"></i></a>
+								</div>
+
+								<div class="can_edit">
+									<p class="general_info_par"><b>Job Locations:</b> Egypt (Alexandria)</p>
+									<a class="can_edit-icon"
+									   href="#"><i class="fas fa-pen"></i></a>
+								</div>
+
+								<div class="can_edit">
+									<p class="general_info_par"><b>Driving License:</b> Yes- Owns a car</p>
+									<a class="can_edit-icon"
+									   href="#"><i class="fas fa-pen"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="flex">
-						<div class="col-5 margin-r-s">
+					<div class="row">
+						<div class="nopadding col-lg-7 ">
 							<div class="info_container_one">
 								<div class="info_container_header">
 									<h3 class="info_container_heading">
 										work Experience
 									</h3>
-									<a class="link_inline" href="experince.html">+ add New</a>
+									<a class="link_inline"
+									   href="experince.html">+ add New</a>
 								</div>
 								<div class="info_container_item">
 									<h3 class="heading_small">
@@ -243,7 +355,8 @@
 									<h3 class="info_container_heading">
 										Education
 									</h3>
-									<a class="link_inline" href="education.html">+ add New</a>
+									<a class="link_inline"
+									   href="education.html">+ add New</a>
 								</div>
 							</div>
 							<div class="info_container_one">
@@ -251,7 +364,8 @@
 									<h3 class="info_container_heading">
 										Activities
 									</h3>
-									<a class="link_inline" href="#">+ add New</a>
+									<a class="link_inline"
+									   href="#">+ add New</a>
 								</div>
 							</div>
 							<div class="info_container_one">
@@ -259,18 +373,20 @@
 									<h3 class="info_container_heading">
 										Achievments
 									</h3>
-									<a class="can_edit-icon" href="achivement.html"><i class="fas fa-pen"></i></a>
+									<a class="can_edit-icon"
+									   href="achivement.html"><i class="fas fa-pen"></i></a>
 								</div>
 							</div>
 						</div>
 
-						<div class="col-3">
+						<div class="nopadding col-lg-5">
 							<div class="info_container_three">
 								<div class="info_container_header can_edit">
 									<h3 class="info_container_heading">
 										Skills
 									</h3>
-									<a class="can_edit-icon" href="skills.html">
+									<a class="can_edit-icon"
+									   href="skills.html">
 										<i class="fas fa-pen"></i>
 									</a>
 								</div>
@@ -280,12 +396,14 @@
 									<h3 class="info_container_heading">
 										Languages
 									</h3>
-									<a class="can_edit-icon" href="#">
+									<a class="can_edit-icon"
+									   href="#">
 										<i class="fas fa-pen"> </i>
 									</a>
 								</div>
 								<div class="language">
-									<a class="language_item" href="#">
+									<a class="language_item"
+									   href="#">
 										<p class="heading_light">
 											Arabic
 										</p>
@@ -300,7 +418,8 @@
 											<span>-- fluent</span>
 										</div>
 									</a>
-									<a class="language_item" href="#">
+									<a class="language_item"
+									   href="#">
 										<p class="heading_light">
 											English
 										</p>
@@ -315,7 +434,8 @@
 											<span>-- fluent</span>
 										</div>
 									</a>
-									<a class="language_item" href="#">
+									<a class="language_item"
+									   href="#">
 										<p class="heading_light">
 											Arabic
 										</p>
@@ -338,7 +458,8 @@
 									<h3 class="info_container_heading">
 										Training & Certifications
 									</h3>
-									<a class="can_edit-icon" href="#">
+									<a class="can_edit-icon"
+									   href="#">
 										<i class="fas fa-pen"></i>
 									</a>
 								</div>
@@ -356,17 +477,98 @@
 					</div>
 				</div>
 
-				<div class="col-4">
-					<div class="improve_profile"></div>
-					<div class="improve_profile"></div>
-					<div class="improve_profile"></div>
-					<div class="improve_profile"></div>
+				<div class="col-sm-12 col-md-12 col-lg-3 improve_profile-container">
+					<div class="improve_profile">
+						<h3 class="info_container_heading">Improve Your Profile</h3>
+						<p class="info_container_item-par">0 employers viewed your profile in the last 30 days (39 all time)</p>
+						<div class="progress">
+							<div class="progress-bar"
+								 role="progressbar"
+								 aria-valuenow="95"
+								 aria-valuemin="0"
+								 aria-valuemax="100"
+								 style="width:95%">
+								<span class="sr-only">95% Complete</span>
+							</div>
+						</div>
+						<p class="info_container-par">Your profile strength is 95%</p>
+						<a class="link_inline"
+						   href="#">Update your <b>Experiences</b>
+						</a>
+						<!-- Update your Phone -->
+						<!-- Update your CV -->
+						<!-- Update your Skills -->
+					</div>
+					<div class="improve_profile">
+						<h3 class="info_container_heading">Your Profile Visibility</h3>
+						<div class="switch_container">
+							<div class="flex">
+								<input id="s2"
+									   type="checkbox"
+									   class="switch"
+									   checked="yes">
+								<label class="switchTxt"
+									   for="s2">Make my profile public <br>
+								</label>
+							</div>
+						</div>
+						<div class="sidenav-borderd">
+							<p class="info_container-par">Here is your public profile link:</p>
+							<a class="link_inline"
+							   href="#">Wuzzuf.net/me/marwty</a>
+							<div class="jobsSelect-clear_all-container"
+								 style="background-color: transparent;">
+								<i class="can_edit-icon fas fa-pen"
+								   style="display: block;"></i>
+							</div>
+						</div>
+						<div class="switch_container">
+							<p class="info_container-par">Share your Profile</p>
+							<a class="social_media_square"
+							   href="#">
+								<i style="color: #007bb5;"
+								   class=" fab fa-linkedin"></i>
+							</a>
+							<a class="social_media_square"
+							   href="#">
+								<i style="color: #1877f2;"
+								   class="fab fa-facebook-square"></i>
+							</a>
+							<a class="social_media_square"
+							   href="#">
+								<i style="color: #1da1f2;"
+								   class="fab fa-twitter-square"></i>
+							</a>
+						</div>
+
+					</div>
+					<div class="improve_profile">
+						<div class="switch_container">
+							<div class="flex">
+								<input id="s2"
+									   type="checkbox"
+									   class="switch"
+									   checked="yes">
+								<label class="switchTxt"
+									   for="s2">Let companies find me on WUZZUF <br>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="improve_profile">
+						<a class="link_aside"
+						   href="#">Generate CV From Profile</a>
+					</div>
 				</div>
-			</section>
-		</div>
-
-
-	</body>
+			</div>
+		</section>
+	</div>
+	<script src="assets/js/main.js"></script>
+	<script>
+		profileMenuSwitch();
+		seeMore();
+	</script>
+</body>
 
 
 </html>
